@@ -1,0 +1,84 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Курс HTML и CSS урок 4</title>
+</head>
+<body>
+	<h2>Списки</h2>
+	<h3>Маркированный список UL LI(unordered list)</h3>
+	<p>Выводит маркированные списки трех типов circle, disc, square</p>
+	<ul>
+		<li type="circle">ul type="circle"</li>
+		<li type="disc">ul type="disc"</li>
+		<li type="square">ul type="square"</li>
+	</ul>
+	
+	<h3>Нумерованные списки OL LI (ordered list)</h3>
+	<p>Выводит нумерованные списки с типами арабские цифры 1, прописными буквами - A,
+		строчными буквами - a, большими римскими цифрами - I, маленькими римскими цифрами - i
+	а также с конкрктной нумерацией с помощью оператора start</p>
+	<ol>
+		<li>ol type="1,2,3"</li>
+		<li>ol type="A,B,C"</li>
+		<li>ol type="a,b,c"</li>
+		<li>ol type="I,II,III"</li>
+		<li>ol type="i,ii,iii"</li>
+		<li>ol start="5"</li>
+	</ol>
+	
+	<h3>Списки определений DL DT DD (difinition list)</h3>
+	
+	<ul>
+		<li>Курсы
+			<ol>
+				<li>Каталог курсов
+					<dl>
+						<dt>Курсы для пользователей
+							<dd>Компьютерные курсы для начинающих, Office 2003, Курсы для
+							продвинутых пользователей</dd>
+						</dt>
+						<dt>Настройка и ремонт ПК
+							<dd>Настройка офисных и домашних компьютеров, Техническое обслуживание
+							и ремонт ПЭВМ</dd>
+						</dt>
+						<dt>Интернет-технологии
+							<dd>Интернет, PHP, Web-мастеринг, Web-дизайн, Flash</dd>
+						</dt>
+						<dt>Компьютерная графика, верстка, дизайн
+							<dd>Photoshop, CorelDRAW, QuarkXPress, InDesign</dd>
+						</dt>
+					</dl>
+				</li>
+				<li>Дистанционное обучение</li>
+				<li>Запись на курсы</li>
+				<li>Расписание курсов</li>
+				<li>Экзамены</li>
+				<li>Документы об окончании</li>
+			</ol>
+		</li>
+		<li>Специальные предложения
+			<ol type="a">
+				<li>Скидки</li>
+				<li>Обучение в кредит</li>
+				<li>Бесплатные занятия для наших слушателей</li>
+			</ol>
+		</li>
+	</ul>
+	
+	<h2>Таблицы</h2>
+	<h3>Рисуем таблицу - 3 этапа (HTML 3.2)</h3>
+	<table border="1" cellspacing="20" cellpadding="30" bgcolor="#ffffaa" align="center">
+		<caption align="top">Заголовок таблицы</caption>
+		<tr bgcolor="#ffffff" valign="baseline">
+			<td width="250">Просто<br>текст<br>в несколько<br>строк</td>
+			<td nowrap><font size="7">Пара недлинных, но крупных слов</font></td>
+		</tr>
+		<tr bgcolor="#ff99ff" align="center">
+			<td align="right" height="300">Тоже<br>несколько<br>строк</td>
+			<td bgcolor="#ccffff" valign="top">Тыц</td>
+		</tr>
+	</table>
+	
+</body>
+</html>

@@ -1,0 +1,26 @@
+h1{
+	background:#369;
+	color:#fff;
+/* 	
+	font-family:calibri, "myriad pro", sans-serif;
+	font-size:4em;
+	line-height:3em;
+	font-weight:normal;
+	 */
+	 font:4em/3em calibri, "myriad pro", sans-serif;
+	 text-align:center;
+	 text-transform:capitalize;
+	 letter-spacing:-.1em;
+	 word-spacing:1em;
+}
+p{
+	text-indent:2em;
+	line-height:150%;
+}
+h3{
+	font-variant:small-caps;
+	text-decoration:underline overline line-through;
+}
+em{
+	font-size:2em;
+}
